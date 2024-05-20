@@ -50,7 +50,7 @@ from src.utils import show_product_in_notebook
 # Output models
 #
 class Clothing(BaseModel):
-    """Data moel for clothing items"""
+    """Data model for clothing items"""
 
     name: str
     product_id: str
@@ -92,9 +92,9 @@ Returns:
     """
     return len(os.listdir(INPUT_IMAGE_DIR)) == 1
 
-    
+
 check_input_image_tool = FunctionTool.from_defaults(fn=has_user_input_image)
-       
+
 
 # %%
 # LLM
