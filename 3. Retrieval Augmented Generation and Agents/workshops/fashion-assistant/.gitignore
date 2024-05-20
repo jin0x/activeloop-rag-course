@@ -1,0 +1,10 @@
+.vscode/
+.venv/
+__pycache__/
+.DS_Store
+old
+data
+input_image/
+.env
+Notes.md
+blogpost.zip
